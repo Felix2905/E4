@@ -154,9 +154,5 @@ extension ViewController {
             
         }
     }
-    
-    func tienTest(){
-        print("tien test")
-    }
 }
 
