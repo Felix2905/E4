@@ -125,16 +125,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             cell.imgStar4.image  = #imageLiteral(resourceName: "star1")
             cell.imgStar5.image  = #imageLiteral(resourceName: "star1")
         }
-
-        
-        
         return cell
     }
     
     
     //---height space
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60.0
+        return 80.0
     }
     
 }
@@ -156,9 +153,6 @@ extension ViewController {
         else if editingStyle == .insert {
             
         }
-    }
-    func kaiTets(){
-        
     }
 }
 
